@@ -3,8 +3,8 @@ import cli from "command-line-args"
 
 export type Opts = {
     args?: string[], 
-    pwd?: string[],
-    config?: string[],
+    pwd?: string,
+    config?: string,
 }
 
 export default function getOpts(): Opts {
